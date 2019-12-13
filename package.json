@@ -1,0 +1,29 @@
+{
+  "name": "itmo-calendar",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:Ermakoy/itmo-calendar-parser.git",
+  "author": "Andrey Ermakov <a.ermakov@corp.vk.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/nanoid": "^2.1.0",
+    "@types/puppeteer": "^1.20.2",
+    "@types/puppeteer-core": "^1.9.0",
+    "@types/ramda": "^0.26.33",
+    "@typescript-eslint/eslint-plugin": "^2.6.1",
+    "@typescript-eslint/parser": "^2.6.1",
+    "eslint": "^6.6.0",
+    "eslint-config-prettier": "^6.5.0",
+    "eslint-plugin-prettier": "^3.1.1",
+    "prettier": "^1.18.2"
+  },
+  "dependencies": {
+    "date-fns": "^2.7.0",
+    "ics": "^2.18.0",
+    "nanoid": "^2.1.6",
+    "puppeteer": "^2.0.0",
+    "puppeteer-core": "^2.0.0",
+    "ramda": "^0.26.1",
+    "typescript": "^3.7.2"
+  }
+}
