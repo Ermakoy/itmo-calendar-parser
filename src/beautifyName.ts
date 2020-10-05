@@ -12,15 +12,8 @@ import {
   split,
 } from 'ramda';
 
-const upFirst = compose(
-  toUpper,
-  head,
-);
-const lowOther = pipe(
-  split(''),
-  tail,
-  toLower,
-);
+const upFirst = compose(toUpper, head);
+const lowOther = pipe(split(''), tail, toLower);
 
 const classTypeRegex = /\((ЛЕК|ЛАБ)\)/gi;
 
@@ -33,12 +26,7 @@ const pointFreeUpperCase = compose(
   pruneClass,
 );
 
-const pipetest = pipe(
-  pruneClass,
-  trim,
-  juxt([upFirst, lowOther]),
-  join(''),
-);
+const pipetest = pipe(pruneClass, trim, juxt([upFirst, lowOther]), join(''));
 
 enum classType {
   LEC = 'Лекция',
