@@ -20,7 +20,7 @@
   "dependencies": {
     "date-fns": "^2.7.0",
     "ics": "^2.18.0",
-    "nanoid": "^2.1.6",
+    "nanoid": "^3.1.31",
     "puppeteer": "^2.0.0",
     "puppeteer-core": "^2.0.0",
     "ramda": "^0.26.1",
